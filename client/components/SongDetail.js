@@ -11,7 +11,7 @@ class SongDetail extends Component {
 		if (!song) {
 			return <div>Loading...</div>
 		}
-		console.log(this.props);
+		
 		return (
 			<div>
 				<Link to="/">Back</Link>
